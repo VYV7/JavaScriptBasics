@@ -26,5 +26,9 @@ ctx.fillStyle = 'rgba(255, 0, 255, 0.75)'
 ctx.fillRect(25, 100, 175, 50)
 
 
-// Up next:  Strokes and line widths
+// Strokes and line widths
+ctx.strokeStyle = 'rgb(255, 255, 255)'
+ctx.strokeRect(25, 25, 175, 200)
+ctx.lineWidth = 5
+
 console.log(canvas)
